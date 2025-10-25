@@ -1,46 +1,24 @@
-🚀 Features
-
-- ✅ Fully responsive design for mobile, tablet, and desktop
-- ✅ Smooth scrolling navigation
-- ✅ Hero section with greeting and profile picture
-- ✅ About section with stats and personal bio
-- ✅ Skills section highlighting frontend and backend technologies
-- ✅ Contact form with input fields and submit button
-- ✅ Footer with copyright and info
-- ✅ Modern UI animations and hover effects
-
----
-
-# 🛠️ Technologies Used
-
-| Category | Tools & Technologies |
-|----------|--------------------|
-| Frontend | HTML5, CSS3 |
-| Fonts    | Google Fonts (Inter) |
-| Version Control | Git, GitHub |
-
-
-
 ## 📂 Project Structure
 
+```
 protofilio_web/
 │
-├─ index.html # Main HTML file
-├─ style.css # Stylesheet for design and layout
-├─ images/ # Folder for images (profile photo, project screenshots)
-└─ README.md # Project documentation
+├─ index.html               →Structure of my portfolio
+├─ style.css                → Styling of my portfolio
+├─ images/                  → Folder for all images used in the portfolio
+└─ README.md                → What you are reading right now ;)
+```
 
-🧑‍💻 About Me
+## 🧑‍💻 About Me
 
 Hi! I’m Vivek Yadav, a 19-year-old self-taught developer from India.
 I enjoy creating responsive, user-friendly websites using HTML & CSS.
 Currently learning Python, Django, C++, and backend development.
 
-Contact Me:
+### Contact Me:
 
+Linkedin: [VIVEK YADAV](https://www.linkedin.com/in/vivek-yadav-53b935325/)
 📧 Email: vy1222071936@gmail.com
+📱 Contact: +91 9648220882
 
-📱 Phone: +91 9648220882
-
-💼 GitHub Profile
 
