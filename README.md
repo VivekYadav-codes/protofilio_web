@@ -18,7 +18,9 @@ Currently learning Python, Django, C++, and backend development.
 ### Contact Me:
 
 Linkedin: [VIVEK YADAV](https://www.linkedin.com/in/vivek-yadav-53b935325/)
-📧 Email: vy1222071936@gmail.com
-📱 Contact: +91 9648220882
+<br>
+Email: vy1222071936@gmail.com
+<br>
+Contact: +91 9648220882
 
 
