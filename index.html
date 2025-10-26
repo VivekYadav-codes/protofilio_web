@@ -3,89 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vivek yadav - Portfolio</title>
+    <title>Vivek Yadav - Sleek Portfolio</title>
+    <!-- Google Font: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons (for professional icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icomoon/style.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-               <h2><pre>  <b>        vivek yadav</pre></b>              </h2>
-                <link rel="stylesheet" href="style.css">
-                <link rel="backend" href="main.py">
-                 <link rel="backend" href="start_backend.py">
-            </div>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-        </div>
-    </nav>
+  <div class="container nav-container">
+    <div class="nav-logo">
+      <a href="#home">Vivek</a>
+    </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
+    <!-- checkbox (keeps same id) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+    <!-- hamburger label (keeps same class) -->
+    <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation" role="button">
+      <!-- simple CSS bars (no external icons required) -->
+      <span class="bar bar-1"></span>
+      <span class="bar bar-2"></span>
+      <span class="bar bar-3"></span>
+    </label>
+
+    <!-- nav links (keeps same class) -->
+    <div class="nav-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link nav-link-contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">
-                    Hi, I'm <span class="text-gradient">vivek yadav</span>
-                </h1>
-                 <p class="hero-subtitle">software developer</p>
-                <p class="hero-description">
-                    I create beautiful, responsive websites and applications that deliver exceptional user experiences. 
-                    Passionate about clean code and innovative design solutions.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                <p class="hero-subtitle">Hello, I'm</p>
+                <h1 class="hero-title">Vivek Yadav</h1>
+                <h2 class="hero-role">Full Stack Developer & Software Engineer</h2>
+                <p class="hero-bio">Building scalable and robust web applications with a focus on clean code and user experience. Let's create something amazing together.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="icon-arrow-right"></i></a>
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
-            <div class="vivek-image">
-                <div class="vivek-avatar">
-                    <img src="C:\Users\Dell\Pictures\d.jpg" alt="Profile Picture">
-                    
-                </div>
+            <div class="hero-avatar-wrapper">
+                <!-- Placeholder image for the avatar -->
+                <img src="images/Vivek.png" alt="Vivek Yadav Avatar" class="hero-avatar" onerror="this.src='https://placehold.co/350x350/1e3a8a/ffffff?text=V.Y.'">
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about-section">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h3 class="section-title">About Me</h3>
+            <p class="section-subtitle">A brief look into my background and what drives me.</p>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
-                        I'm a 19-year-old self-taught developer from India with over one years of experience working with python. My coding journey began out of pure curiosity and has now grown into a deep passion for building real-world digital solutions. Over the years, I’ve learned to create responsive, user-friendly interfaces, and now I’m actively expanding my skills in medaim knowlege of progaram
-
-Currently, I'm diving into c++ with a strong focus on Data Structures and Algorithms (DSA), as I aim to break into a top tech company in the future. I believe c++ provides the structure and speed needed to crack coding interviews and solve complex problems, which is why I’ve made it a core part of my learning path. Alongside c++, I’m also learning the backend stack with Python, Django, and MySQL, where I’ve already built practical projects that solve real problems.
-
-Aside from coding, I love experimenting with new tech, designing clean UIs, and taking on mini freelance projects to challenge myself and grow in real-world scenarios. I’m a strong believer in learning by doing, and every project, no matter how small, teaches me something new.
-
-As I continue my journey, I'm actively looking to connect with fellow developers, tech enthusiasts, and global professionals who share the same energy for learning, building, and making an impact. I’m still young, but I have big dreams, and I’m committed to turning those dreams into reality.
-
-
-                    </p>
-                    <p>
-                        I believe in writing clean, maintainable code and creating user interfaces that are not only 
-                        functional but also beautiful and intuitive. When I'm not coding, you can find me exploring 
-                        new technologies, contributing to open-source projects, or enjoying outdoor activities.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>2</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat">
-                            <h3>1</h3>
-                            <p>Years Experience</p>
-                        </div>
+                    <p>I am a passionate software engineer with <strong>5+ years of professional experience</strong> in developing and deploying full-stack solutions. My expertise lies primarily in the MERN stack (MongoDB, Express, React, Node.js), but I am highly adaptable and enjoy working with modern frameworks like Next.js and Angular.</p>
+                    <p>My goal is to translate complex business requirements into intuitive, high-performance applications. Whether it's optimizing database queries or crafting pixel-perfect UIs, I strive for excellence in every layer of the application.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="icon-package stat-icon"></i>
+                        <h4 class="stat-number">25+</h4>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="icon-calendar stat-icon"></i>
+                        <h4 class="stat-number">5+</h4>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="icon-zap stat-icon"></i>
+                        <h4 class="stat-number">Full Stack</h4>
+                        <p class="stat-label">Primary Role</p>
                     </div>
                 </div>
             </div>
@@ -93,31 +95,109 @@ As I continue my journey, I'm actively looking to connect with fellow developers
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
+    <section id="skills" class="skills-section section-light-bg">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
+            <h3 class="section-title">My Technical Toolkit</h3>
+            <p class="section-subtitle">Technologies and tools I use to build robust applications.</p>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">HTML5</span>
-                        <span class="skill-item">CSS3</span>
+                    <h4><i class="icon-code"></i> Frontend</h4>
+                    <div class="skill-list">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">Angular</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                        <span class="skill-item">Redux</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">Django (learning)</span>
-                        <span class="skill-item">PostgreSQl(learning)</span>
+                    <h4><i class="icon-server"></i> Backend</h4>
+                    <div class="skill-list">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Python (Django/Flask)</span>
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="icon-database"></i> Databases & DevOps</h4>
+                    <div class="skill-list">
                         <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Git/GitHub</span>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Tools & Others</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h3 class="section-title">Featured Projects</h3>
+            <p class="section-subtitle">Showcasing recent work and technical expertise.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-placeholder project-color-1">
+                        <i class="icon-layout"></i>
+                        <p>SaaS Dashboard Builder</p>
+                    </div>
+                    <div class="project-info">
+                        <h4>Analytics Platform</h4>
+                        <p class="project-description">A multi-tenant SaaS application allowing users to build custom analytics dashboards using drag-and-drop components.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo <i class="icon-external-link"></i></a>
+                            <a href="#" class="project-link">GitHub <i class="icon-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder project-color-2">
+                        <i class="icon-message-square"></i>
+                        <p>Real-time Messaging Service</p>
+                    </div>
+                    <div class="project-info">
+                        <h4>Secure Chat Service</h4>
+                        <p class="project-description">A secure, real-time chat application built with WebSockets, enabling instant messaging and group chat functionality.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo <i class="icon-external-link"></i></a>
+                            <a href="#" class="project-link">GitHub <i class="icon-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder project-color-3">
+                        <i class="icon-database"></i>
+                        <p>Microservice API Gateway</p>
+                    </div>
+                    <div class="project-info">
+                        <h4>API Gateway</h4>
+                        <p class="project-description">Developed a robust API gateway for routing and managing traffic across multiple microservices with integrated authentication and logging.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo <i class="icon-external-link"></i></a>
+                            <a href="#" class="project-link">GitHub <i class="icon-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,33 +205,36 @@ As I continue my journey, I'm actively looking to connect with fellow developers
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact-section section-light-bg">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h3 class="section-title">Let's Connect</h3>
+            <p class="section-subtitle">I'm always open to new opportunities and collaborations. Get in touch!</p>
+            
             <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's work together</h3>
-                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a project in mind or just want to chat about technology, feel free to reach out!</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <strong>Email:</strong>
-                            <span>vy1222071936@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Phone:</strong>
-                            <span>+91 9648220882</span>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Location:</strong>
-                            <span>avilak nagar lalji pada kandivali W </span>
-                        </div>
+                <div class="contact-info-card">
+                    <h4>Direct Contact</h4>
+                    <p>I typically respond within 24 hours.</p>
+
+                    <div class="info-item">
+                        <i class="icon-mail contact-icon"></i>
+                        <a href="mailto:vy1222071936@gmail.com">vy1222071936@gmail.com</a>
                     </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link"></a>
-                        <a href="#" class="social-link">https://github.com/VivekYadav-codes</a>
+                    <div class="info-item">
+                        <i class="icon-phone contact-icon"></i>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="icon-linkedin contact-icon"></i>
+                        <a href="https://www.linkedin.com/in/vivek-yadav-53b935325/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="icon-github contact-icon"></i>
+                        <a href="https://github.com/VivekYadav-codes" target="_blank">GitHub Profile</a>
                     </div>
                 </div>
+
                 <form class="contact-form">
+                    <h4>Send Me a Message</h4>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -168,7 +251,7 @@ As I continue my journey, I'm actively looking to connect with fellow developers
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
                 </form>
             </div>
         </div>
@@ -177,12 +260,22 @@ As I continue my journey, I'm actively looking to connect with fellow developers
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 vivek yadav. 
-                    All rights reserved.</p>
-                <p>HTML & CSS</p>
-            </div>
+            <p>&copy; 2025 Vivek Yadav. All rights reserved. | Designed for excellence.</p>
         </div>
     </footer>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu after clicking a link
+                document.getElementById('menu-toggle').checked = false;
+            });
+        });
+    </script>
 </body>
 </html>
